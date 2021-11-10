@@ -1,0 +1,22 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "target": "es2020",
+    "sourceMap": true,
+    "outDir": "build",
+    "inlineSources": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "../node_modules",
+    "./build"
+  ],
+  "include": [
+    "test/**/*"
+  ]
+}
